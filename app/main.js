@@ -7,7 +7,9 @@ const db = require('./db.js');
 const PORT = 3000;
 
 const routing = {
-  user: db('users')
+  user: require('./users.js'),
+  city: db('city'),
+  county: db('country'),
 }
 
 const crud = { get: 'read', post: 'create', put: 'update', delete: 'delete' };

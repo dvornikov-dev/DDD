@@ -46,17 +46,17 @@ http.createServer(async (req, res) => {
   const { method, url, socket } = req;
   const [name, id] = url.substring(1).split('/');
   const entity = routing[name];
-  if (!entity) return res.end('Not found');
+  if(!entity) res.send('Not Found');
   const handler = entity[method.toLowerCase()];
-  if (!handler) return res.end('Not found');
-  const src = handler.toString();
-  const signature = src.substring(0, src.indexOf(')'));
+  if(!handler) res.status(404).send('Not Found');
   const args = [];
-  if (signature.includes('(id')) args.push(id);
-  if (signature.includes('{')) args.push(await receiveArgs(req));
-  console.log(`${socket.remoteAddress} ${method} ${url}`);
+  const src = handler.toString();
+  const substr = src.substring(0, src.indexOf(')'));
+  if(substr.includes('(id')) args.push(id);
+  if(substr.includes('{')) args.push(await receiveArgs(req));
+  console.log(`${socket.remoteAddress} ${methid} ${url}`);
   const result = await handler(...args);
-  res.end(JSON.stringify(result.rows));
+  res.end(JSON.stringify(result));
 }).listen(PORT);
 
 console.log(`Listen on port ${PORT}`);

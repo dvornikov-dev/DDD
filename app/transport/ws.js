@@ -2,8 +2,7 @@
 
 const { Server } = require('ws');
 
-
-module.exports = (routing, port) => {
+module.exports = (routing, port, console) => {
     const ws = new Server({ port });
     ws.on('connection', (ws, req) => {
         const ip = req.socket.remoteAddress;
@@ -22,7 +21,6 @@ module.exports = (routing, port) => {
                 ws.send(JSON.stringify(result.rows), { binary: false });
             } catch (e) {
                 console.dir({ er});
-                ws.send('"Server error"', { binary: false });
             }
         });
     }); 

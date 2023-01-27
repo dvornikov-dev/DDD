@@ -1,11 +1,10 @@
 'use strict';
 
-const db = require('./db.js');
 const fsp = require('node:fs').promises;
 const path = require('node:path');
-const server = require('./transport/http.js');
-
-const PORT = 3000;
+const config = require('./config.js');
+const deps = require('./dependencies.js')(config);
+const server = require(`./transport/${config.transport}.js`);
 
 const apiPath = path.join(__dirname, 'services');
 const routing = {};
@@ -16,7 +15,8 @@ const routing = {};
     if (!file.endsWith('.js')) continue;
     const filePath = path.join(apiPath, file);
     const entity = path.basename(file, '.js');
-    routing[entity] = require(filePath);
+    routing[entity] = require(filePath)(deps);
   }
 })();
-server(routing, PORT);
+
+server(routing, config.port, deps.console);

@@ -1,0 +1,8 @@
+{"level":30,"time":1674838995985,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1674838997691,"pid":45,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1674839043477,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /user/read"}
+{"level":30,"time":1674839043478,"pid":45,"hostname":"7700d6c0d518","err":{"type":"TypeError","message":"users.read is not a function","stack":"TypeError: users.read is not a function\n    at read (/app/services/user.js:8:26)\n    at Server.<anonymous> (/app/transport/http.js:27:34)\n    at Server.emit (node:events:512:28)\n    at parserOnIncoming (node:_http_server:1067:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)"},"msg":"users.read is not a function"}
+{"level":30,"time":1674839175470,"pid":60,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1674839231865,"pid":75,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1674839252051,"pid":90,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1674839289562,"pid":90,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /user/read"}

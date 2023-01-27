@@ -1,11 +1,14 @@
 const pino = require('pino')
-const logger = pino({
-  transport: {
-    target: 'pino-pretty',
-    options: {
-      colorize: true
-    }
-  }
+const transport = pino.transport({
+  targets: [{
+    level: 'info',
+    target: 'pino-pretty' // must be installed separately
+  }, {
+    level: 'trace',
+    target: 'pino/file',
+    options: { destination: 'log/log.log' }
+  }]
 })
+const logger = pino(transport);
 
-logger.info('hi')
+logger.info({p: 1})

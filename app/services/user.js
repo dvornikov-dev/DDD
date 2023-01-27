@@ -2,7 +2,6 @@
 
 module.exports = (context) => {
     const users = context.db('users');
-
     return {
         read(id) {
             return users.read(id, ['id', 'login']);

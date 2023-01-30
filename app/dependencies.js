@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (config) => ({
-    db: require('./db.js')(config.db),
-    console: require(`./${config.logger}.js`),
-    hash: require('./hash.js'),
+    db: require('./lib/db.js')(config.db),
+    console: require(`./lib/${config.logger}.js`),
+    hash: require('./lib/hash.js'),
 });

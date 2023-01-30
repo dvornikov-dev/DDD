@@ -1,7 +1,5 @@
 'use strict';
 
-const logger = require('./logger');
-
 module.exports = {
     port: 3000,
     db: {
@@ -12,5 +10,5 @@ module.exports = {
       password: 'password',
     },
     transport: 'ws',
-    logger: 'logger',
+    logger: 'pino',
 }

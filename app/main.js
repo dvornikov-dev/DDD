@@ -4,7 +4,7 @@ const fsp = require('node:fs').promises;
 const path = require('node:path');
 const config = require('./config.js');
 const deps = require('./dependencies.js')(config);
-const server = require(`./transport/${config.transport}.js`);
+const server = require(`./server/${config.server}.js`);
 
 const apiPath = path.join(__dirname, 'services');
 const routing = {};
@@ -17,6 +17,6 @@ const routing = {};
     const entity = path.basename(file, '.js');
     routing[entity] = require(filePath)(deps);
   }
+  server(routing, config.port, deps.console);
 })();
 
-server(routing, config.port, deps.console);

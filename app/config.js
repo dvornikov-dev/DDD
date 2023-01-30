@@ -9,6 +9,6 @@ module.exports = {
       user: 'user',
       password: 'password',
     },
-    transport: 'ws',
+    server: 'fastify',
     logger: 'pino',
 }

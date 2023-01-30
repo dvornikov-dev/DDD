@@ -11,6 +11,6 @@ module.exports = {
       user: 'user',
       password: 'password',
     },
-    transport: 'http',
+    transport: 'ws',
     logger: 'logger',
 }

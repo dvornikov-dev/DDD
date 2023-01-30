@@ -6,3 +6,110 @@
 {"level":30,"time":1674839231865,"pid":75,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
 {"level":30,"time":1674839252051,"pid":90,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
 {"level":30,"time":1674839289562,"pid":90,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /user/read"}
+{"level":30,"time":1675087746919,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675088530143,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675088712998,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675090119329,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090120512,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090121592,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090122594,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090123683,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090124688,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090125660,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090126767,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090127703,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090128801,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090129768,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090130895,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090131892,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090132904,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090133844,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090134523,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090135431,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090136496,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090137458,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090138674,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090139226,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090139723,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090140367,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090141351,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090142375,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090143329,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090143810,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090144403,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090144943,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090145942,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090146455,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090146892,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090147460,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090147900,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090148662,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090149637,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090150625,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090151714,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090152703,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090153942,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090154772,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090155742,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090194002,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090194690,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090195204,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090195816,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090196330,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090196767,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090197407,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090197756,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090198450,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090198926,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090199468,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090200026,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090201036,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090202086,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090203063,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090203608,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090204700,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090205631,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090206162,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090206647,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090313731,"pid":30,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675090355662,"pid":45,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675090825855,"pid":59,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091134598,"pid":75,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091148278,"pid":90,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091162833,"pid":115,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091171691,"pid":130,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091182653,"pid":145,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091185643,"pid":160,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091254972,"pid":175,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675091261190,"pid":190,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675092086327,"pid":205,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675092329344,"pid":220,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675092467500,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675092576139,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093106431,"pid":30,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093176993,"pid":30,"hostname":"7700d6c0d518"}
+{"level":30,"time":1675093176994,"pid":30,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /api/user/read"}
+{"level":30,"time":1675093226625,"pid":45,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093234509,"pid":45,"hostname":"7700d6c0d518","0":3}
+{"level":30,"time":1675093234510,"pid":45,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /api/user/read"}
+{"level":30,"time":1675093234533,"pid":45,"hostname":"7700d6c0d518","err":{"type":"DatabaseError","message":"invalid input syntax for type bigint: \"{\"3\"}\"","stack":"error: invalid input syntax for type bigint: \"{\"3\"}\"\n    at Parser.parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:287:98)\n    at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:512:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","length":142,"name":"error","severity":"ERROR","code":"22P02","where":"unnamed portal parameter $1 = '...'","file":"numutils.c","line":"316","routine":"pg_strtoint64"},"msg":"invalid input syntax for type bigint: \"{\"3\"}\""}
+{"level":30,"time":1675093276949,"pid":60,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093279393,"pid":60,"hostname":"7700d6c0d518","msg":3}
+{"level":30,"time":1675093279393,"pid":60,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /api/user/read"}
+{"level":30,"time":1675093279420,"pid":60,"hostname":"7700d6c0d518","err":{"type":"DatabaseError","message":"invalid input syntax for type bigint: \"{\"3\"}\"","stack":"error: invalid input syntax for type bigint: \"{\"3\"}\"\n    at Parser.parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:287:98)\n    at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:512:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","length":142,"name":"error","severity":"ERROR","code":"22P02","where":"unnamed portal parameter $1 = '...'","file":"numutils.c","line":"316","routine":"pg_strtoint64"},"msg":"invalid input syntax for type bigint: \"{\"3\"}\""}
+{"level":30,"time":1675093708954,"pid":75,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093711737,"pid":75,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /api/user/read"}
+{"level":30,"time":1675093770701,"pid":90,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093860985,"pid":105,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3)"}
+{"level":30,"time":1675093932479,"pid":120,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675093967345,"pid":120,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /api/user/read"}
+{"level":30,"time":1675093978618,"pid":120,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 update /api/user/update"}
+{"level":30,"time":1675093978619,"pid":120,"hostname":"7700d6c0d518","err":{"type":"TypeError","message":"The \"password\" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, or DataView. Received undefined","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"password\" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, or DataView. Received undefined\n    at check (node:internal/crypto/scrypt:89:14)\n    at Object.scrypt (node:internal/crypto/scrypt:47:13)\n    at /app/hash.js:7:10\n    at new Promise (<anonymous>)\n    at Object.hash (/app/hash.js:5:28)\n    at update (/app/services/user.js:14:48)\n    at Server.<anonymous> (/app/transport/http.js:36:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","code":"ERR_INVALID_ARG_TYPE"},"msg":"The \"password\" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, or DataView. Received undefined"}
+{"level":30,"time":1675094052799,"pid":120,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 update /api/user/update"}
+{"level":30,"time":1675094115414,"pid":135,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675094117532,"pid":135,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 update /api/user/update"}
+{"level":30,"time":1675094117602,"pid":135,"hostname":"7700d6c0d518","command":"UPDATE","rowCount":1,"oid":null,"rows":[],"fields":[],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false}
+{"level":30,"time":1675094149313,"pid":150,"hostname":"7700d6c0d518","msg":"Listen on port 3000"}
+{"level":30,"time":1675094157094,"pid":150,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 read /api/user/read"}
+{"level":30,"time":1675094180436,"pid":165,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.update(3,{\"login\":\"user3\",\"password\":\"123\"})"}
+{"level":30,"time":1675094215612,"pid":165,"hostname":"7700d6c0d518","msg":"::ffff:172.21.0.1 user.read(3,{\"login\":\"user3\",\"password\":\"123\"})"}

@@ -1,9 +1,8 @@
-'use strict';
+import pkg from 'pg';
+const { Pool } = pkg;
 
-const pg = require('pg');
-
-module.exports = (options) => { 
-  const pool = new pg.Pool({...options});
+export default (options) => { 
+  const pool = new Pool({...options});
   return (table) => ({
     read(id, fields = ['*']) {
       const names = fields.join(', ');

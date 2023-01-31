@@ -1,6 +1,4 @@
-'use strict';
-
-const http = require('node:http');
+import http from 'node:http';
 
 const HEADERS = {
     'X-XSS-Protection': '1; mode=block',
@@ -19,7 +17,7 @@ const receiveArgs = async (req) => {
     return JSON.parse(data);
 }
 
-module.exports = (routing, port, console) => {
+export default (routing, port, console) => {
     http.createServer(async (req, res) => {
         try {
             res.writeHead(200, HEADERS);

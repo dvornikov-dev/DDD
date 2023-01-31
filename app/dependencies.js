@@ -1,7 +1,8 @@
-'use strict';
+import db from './lib/db.js';
+import hash from './lib/hash.js';
 
-module.exports = (config) => ({
-    db: require('./lib/db.js')(config.db),
+export default (config) => ({
+    db: db(config.db),
     console: console,
-    hash: require('./lib/hash.js'),
+    hash: hash,
 });

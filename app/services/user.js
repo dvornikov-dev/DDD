@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = (context) => {
+export default (context) => {
     const users = context.db('users');
     return {
         read(id) {

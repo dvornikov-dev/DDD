@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = (context) => context.db('country');
+export default (context) => context.db('country');

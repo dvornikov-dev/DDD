@@ -1,9 +1,10 @@
-'use strict';
+import Fastify from 'fastify';
+import cors from '@fastify/cors';
 
-const fastify = require('fastify')();
-fastify.register(require('@fastify/cors'), {});
+const fastify = Fastify();
+fastify.register(cors, {});
 
-module.exports = (routing, port, console) => {
+export default (routing, port, console) => {
     const entities = Object.keys(routing);
     for (const entityName of entities) {
         const entity = routing[entityName];

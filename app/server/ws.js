@@ -1,8 +1,6 @@
-'use strict';
+import { Server } from 'ws';
 
-const { Server } = require('ws');
-
-module.exports = (routing, port, console) => {
+export default (routing, port, console) => {
     const ws = new Server({ port });
     ws.on('connection', (ws, req) => {
         const ip = req.socket.remoteAddress;

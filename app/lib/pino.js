@@ -1,6 +1,4 @@
-'use strict';
-
-const pino = require('pino')
+import * as pino from 'pino';
 
 class Logger {
   constructor(logPath) {
@@ -44,4 +42,4 @@ class Logger {
   }
 }
 
-module.exports = new Logger('./log/logs.log');
+export default new Logger('./log/logs.log');

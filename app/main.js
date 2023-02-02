@@ -6,10 +6,10 @@ import depsInit from './dependencies.js';
 const server = (await import(`./server/${config.server}.js`)).default;
 
 const deps = depsInit(config);
-const apiPath = path.join(process.cwd(), 'services');
+const apiPath = path.join(process.cwd(), 'api');
 const routing = {};
 
-const files =  await fsp.readdir(apiPath);
+const files = await fsp.readdir(apiPath);
 
 for (const file of files) {
   if (!file.endsWith('.js')) continue;

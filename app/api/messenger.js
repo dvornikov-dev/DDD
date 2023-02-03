@@ -13,19 +13,11 @@ export default () => ({
     return { status: 'ok' };
   },
 
-  async removeAreaUser({ areaId, userId }) {
-    return { status: 'ok' };
-  },
-
   async getAreaUsers({ areaId }) {
     return { status: 'ok' };
   },
 
   async getAreaMessages({ areaId }) {
-    return { status: 'ok' };
-  },
-
-  async checkAreaAccess({ areaId, userId }) {
     return { status: 'ok' };
   },
 });

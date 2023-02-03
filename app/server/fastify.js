@@ -21,6 +21,7 @@ export default (routing, port, console) => {
     }
     fastify.listen({ port, host: '0.0.0.0' }, function (err, address) {
         if(err) {
+            console.log(err);
             process.exit(1);
         }
         console.log(`Server is now listening on ${address}`);

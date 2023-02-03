@@ -4,7 +4,12 @@ const { Pool } = pkg;
 export default (options) => { 
   const pool = new Pool({...options});
   return (table) => ({
-    read(id, fields = ['*']) {
+    async query(sql, args) {
+      const result = await pool.query(sql, args);
+      return result.rows;
+    },
+
+    async read(id, fields = ['*']) {
       const names = fields.join(', ');
       const sql = `SELECT ${names} FROM ${table}`;
       if (!id) return pool.query(sql);
@@ -21,7 +26,7 @@ export default (options) => {
           nums[i] = `$${++i}`;
       }
       const fields = '"' + keys.join('", "') + '"';
-      const sql = `INSERT INTO ${table} (${fields}) VALUES (${nums.join(", ")})`;
+      const sql = `INSERT INTO "${table}" (${fields}) VALUES (${nums.join(", ")})`;
       return pool.query(sql, data);
     },
 
@@ -39,7 +44,7 @@ export default (options) => {
       return pool.query(sql, data);
     },
 
-    delete(id) {
+    async delete(id) {
       const sql = `DELETE FROM ${table} WHERE id = $1`;
       return pool.query(sql, [id]);
     },

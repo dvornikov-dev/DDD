@@ -10,18 +10,6 @@ export default ({ db }) => {
             return { status: 'ok' };
         },
 
-        async createArea( { name } ) {
-            return { status: 'ok' };
-        },
-
-        async editArea( { areaId, name } ) {
-            return { status: 'ok' };
-        },
-
-        async changeAreaStatus( { areaId, status } ) {
-            return { status: 'ok' };
-        },
-
         async addAreaUser( { areaId, userId } ) {
             return { status: 'ok' };
         },

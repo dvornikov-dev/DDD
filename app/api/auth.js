@@ -1,11 +1,6 @@
 export default ({ db }) => {
 
     return {
-        async registration({ login, password }) {
-            console.log({ method: 'auth.reg', login, password });
-            return { status: 'ok' };
-        },
-
         async login({ login, password }) {
             console.log({ method: 'auth.login', login, password });
             return { status: 'ok' };

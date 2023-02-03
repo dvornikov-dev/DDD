@@ -1,3 +1,3 @@
 export default ({ db }) => {
-    return db('Area');
-}
+  return db('Area');
+};

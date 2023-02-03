@@ -1,3 +1,3 @@
 export default ({ db }) => {
-    return db('role');
-}
+  return db('role');
+};

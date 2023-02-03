@@ -4,15 +4,16 @@ class Logger {
   constructor(logPath) {
     const transport = pino.transport({
       targets: [
-      {
-        level: 'info',
-        target: 'pino-pretty' // must be installed separately
-      }, 
-      {
-        level: 'trace',
-        target: 'pino/file',
-        options: { destination: logPath }
-      }]
+        {
+          level: 'info',
+          target: 'pino-pretty', // must be installed separately
+        },
+        {
+          level: 'trace',
+          target: 'pino/file',
+          options: { destination: logPath },
+        },
+      ],
     });
     this.logger = pino(transport);
   }

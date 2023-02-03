@@ -1,8 +1,8 @@
 import pkg from 'pg';
 const { Pool } = pkg;
 
-export default (options) => { 
-  const pool = new Pool({...options});
+export default (options) => {
+  const pool = new Pool({ ...options });
   return (table) => ({
     async query(sql, args) {
       const result = await pool.query(sql, args);
@@ -22,11 +22,13 @@ export default (options) => {
       const data = new Array(keys.length);
       let i = 0;
       for (const key of keys) {
-          data[i] = record[key]; 
-          nums[i] = `$${++i}`;
+        data[i] = record[key];
+        nums[i] = `$${++i}`;
       }
       const fields = '"' + keys.join('", "') + '"';
-      const sql = `INSERT INTO "${table}" (${fields}) VALUES (${nums.join(", ")})`;
+      const sql = `INSERT INTO "${table}" (${fields}) VALUES (${nums.join(
+        ', ',
+      )})`;
       return pool.query(sql, data);
     },
 
@@ -36,10 +38,12 @@ export default (options) => {
       const data = new Array(keys.length);
       let i = 0;
       for (const key of keys) {
-          data[i] = record[key]; 
-          updates[i] = `${key} = $${++i}`;
+        data[i] = record[key];
+        updates[i] = `${key} = $${++i}`;
       }
-      const sql = `UPDATE ${table} SET ${updates.join(', ')} WHERE id = $${++i}`;
+      const sql = `UPDATE ${table} SET ${updates.join(
+        ', ',
+      )} WHERE id = $${++i}`;
       data.push(id);
       return pool.query(sql, data);
     },
@@ -49,4 +53,4 @@ export default (options) => {
       return pool.query(sql, [id]);
     },
   });
-}
+};

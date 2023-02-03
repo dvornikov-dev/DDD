@@ -15,7 +15,7 @@ for (const file of files) {
   if (!file.endsWith('.js')) continue;
   const filePath = path.join(apiPath, file);
   const entity = path.basename(file, '.js');
-  const init = (await import(filePath)).default;;
+  const init = (await import(filePath)).default;
   routing[entity] = init(deps);
 }
 

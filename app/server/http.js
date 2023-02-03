@@ -32,7 +32,7 @@ export default (routing, port, console) => {
             const { args } = await receiveArgs(req);
             console.log(`${socket.remoteAddress} ${method} ${url}`);
             const result = await handler(...args);
-            res.end(JSON.stringify(result.rows));
+            res.end(JSON.stringify(result));
         } catch (err) {
             console.dir({ err });  
         }

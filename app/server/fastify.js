@@ -15,7 +15,7 @@ export default (routing, port, console) => {
                 const { args } = request.body;
                 const result = await handler(...args);
                 console.log(`${request.ip} ${method} ${request.url}`);
-                reply.send(JSON.stringify(result.rows));
+                reply.send(JSON.stringify(result));
             });
         }
     }

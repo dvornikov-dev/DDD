@@ -16,7 +16,7 @@ export default (routing, port, console) => {
             console.log(`${ip} ${name}.${method}(${parameters})`);
             try {
                 const result = await handler(...args);
-                ws.send(JSON.stringify(result.rows), { binary: false });
+                ws.send(JSON.stringify(result), { binary: false });
             } catch (e) {
                 console.dir({ er});
             }
